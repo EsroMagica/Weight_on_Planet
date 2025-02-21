@@ -14,6 +14,16 @@
             margin: 0;
             padding: 0;
         }
+        .heading-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px; /* Space between logo and heading */
+        }
+        .logo {
+            width: 150px; /* Adjust size as needed */
+            height: auto;
+        }
         .container {
             max-width: 80%;
             margin: 30px auto;
@@ -21,7 +31,7 @@
             text-align: center;
         }
         .heading {
-            color: #f5840c;
+            color: #ff9800;
             text-shadow: 2px 2px 4px #000;
             font-size: 36px;
             font-weight: bold;
@@ -48,7 +58,7 @@
             display: block;
             font-size: 16px;
             margin-bottom: 5px;
-            color: #f5840c;
+            color: #ff9800;
         }
         input, select {
             width: 100%;
@@ -60,7 +70,7 @@
             color: #3f3527;
         }
         input:focus, select:focus {
-            outline: 2px solid #f5840c;
+            outline: 2px solid #ff9800;
             background: rgba(255, 255, 255, 0.4);
         }
         ::placeholder {
@@ -70,7 +80,7 @@
             display: none;
         }
         button {
-            background: #f5840c;
+            background: #ff9800;
             color: white;
             padding: 10px 20px;
             font-size: 18px;
@@ -100,7 +110,8 @@
 </head>
 <body>
     <!-- Heading -->
-    <div class="container">
+    <div class="container heading-container">
+        <img src="logo em R mark png.png" alt="Company Logo" class="logo">
         <h1 class="heading">Check Your Weight On Other Celestial Objects</h1>
     </div>
 
